@@ -71,8 +71,7 @@ public class CoolHudConfigScreen extends Screen {
 	}
 
 	@Override
-	public boolean shouldPauseGame() {
+	public boolean shouldPause() {
 		return false;
 	}
 }
-

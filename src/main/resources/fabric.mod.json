@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "coolhud",
+	"version": "${version}",
+	"name": "CoolHUD",
+	"description": "A clean, toggleable cosmetic HUD overlay (coords, FPS, potion timers, armor bar) with a soft glassmorphism style.",
+	"authors": [
+		"you"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/coolhud/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.coolhud.CoolHudClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"fabric-api": "*",
+		"minecraft": "1.21.4",
+		"java": ">=21"
+	}
+}
